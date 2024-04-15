@@ -23,7 +23,7 @@ const apiKey = 'QGA54KWXR9XR6UTO';
 
 // Function to open the ThingSpeak API link in a new tab
 function openGraph() {
-    const url = `https://thingspeak.com/channels/2503823/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15`;
+    const url = `https://thingspeak.com/channels/2503823/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Engine+temperature+graph&type=column&xaxis=Time&yaxis=Over+Heat+Level&yaxismax=4&yaxismin=0`;
     window.open(url, '_blank');
 }
 
