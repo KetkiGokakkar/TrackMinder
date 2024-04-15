@@ -1,0 +1,65 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  background-image: url('https://i.pinimg.com/originals/68/23/a8/6823a85460551a26773e5e51a20fd10e.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-family:Georgia, 'Times New Roman', Times, serif; /* Change to a stylish font like Roboto */
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Align buttons to the right */
+button[type="submit"] {
+  margin-left: auto;
+}
+/* Add this new CSS for the profile icon */
+.profile-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.profile-icon img {
+  width: 20px; /* Adjust the size as needed */
+  height: 20px; /* Adjust the size as needed */
+  color: white;
+  border-radius: 10%;
+}
+.About {
+  position:fixed;
+  top: 5px;
+  right: 50px;
+  color:aliceblue;
+}
