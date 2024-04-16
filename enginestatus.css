@@ -6,12 +6,12 @@
   }
   
   body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     background-image: url('https://i.pinimg.com/564x/ed/f3/c6/edf3c667d9842edc270df649e79f5de1.jpg');
-    background-color: #f6f8f9;
+    background-color: #050505;
     background-size: cover;
     background-position: center;
-    color: #333;
+    color: #060606;
     line-height: 1.6;
   }
   
@@ -23,7 +23,7 @@
   
   h1 {
     text-align: center;
-    color: #050505;
+    color: #0e0e0e;
     margin-bottom: 20px;
   }
   
@@ -32,8 +32,8 @@
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #9a0be2;
-    color: #fff;
+    background-color: #d597ea;
+    color: #030303;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -54,7 +54,7 @@
   }
   
   button:hover {
-    background-color: #082aed;
+    background-color: #7308d7;
   }
   
   .profile-icon {
@@ -73,5 +73,5 @@
     position:fixed;
     top: 0px;
     right: 50px;
-    color:aliceblue;
+    color:rgb(13, 132, 236);
   }
