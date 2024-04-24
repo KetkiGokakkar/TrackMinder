@@ -1,13 +1,43 @@
 body {
-  font-family:'Courier New', Courier, monospace;
-  background-image: url('https://i.pinimg.com/originals/68/23/a8/6823a85460551a26773e5e51a20fd10e.jpg');
-  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url('https://images.wallpaperscraft.com/image/single/motorcycle_side_view_bike_120753_1366x768.jpg');
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
+  display: flex;
+}
+
+.navbar {
+  height: 100%;
+  width: 150px;
+  background-color: #3a3939;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y:visible;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.main-content {
+  margin-left: 200px;
+  padding: 20px;
+  flex: 1;
 }
 
 .container {
@@ -22,7 +52,7 @@ body {
 
 h1 {
   color: #333;
-  font-family:Georgia, 'Times New Roman', Times, serif; /* Change to a stylish font like Roboto */
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 button[type="submit"] {
@@ -40,11 +70,6 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/* Align buttons to the right */
-button[type="submit"] {
-  margin-left: auto;
-}
-/* Add this new CSS for the profile icon */
 .profile-icon {
   position: fixed;
   top: 20px;
@@ -52,14 +77,8 @@ button[type="submit"] {
 }
 
 .profile-icon img {
-  width: 20px; /* Adjust the size as needed */
-  height: 20px; /* Adjust the size as needed */
+  width: 20px;
+  height: 20px;
   color: white;
   border-radius: 10%;
-}
-.About {
-  position:fixed;
-  top: 5px;
-  right: 50px;
-  color:aliceblue;
 }
