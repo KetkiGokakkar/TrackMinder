@@ -1,16 +1,20 @@
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
-    background-image: url('https://wallpapers.com/images/featured/motorcycle-lbpkwmb1wx1l6um1.jpg');
-    margin: 0;
-    padding: 0;
+    background-image: image-set('https://media.istockphoto.com/id/521890329/photo/bike-rider.jpg?s=612x612&w=0&k=20&c=p56JxxiCX3LyMsufE5umR-kWQkPsbRnO8KI9Jrjh1PY=' 2x);
+    background-size: cover;
+    background-blend-mode:darken;
+    margin: 10;
+    padding: 10;
 }
 
 .container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
